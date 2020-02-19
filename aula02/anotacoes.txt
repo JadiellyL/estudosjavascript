@@ -23,4 +23,36 @@ Podem começar com:
 *É possíveel utilizar acentos ou símbolos
 *Não podem conter espaços
 *Não podem ser palavras reservadas
+*Maúsculas e minúsculas fazem diferença
+*Tente escolher nomes coerentes para as variáveis
+
+-Variáveis servem para guardar dados
+tipos primitivos primordiais no javascript:
+*number
+*string
+*boolean
+
+-Tipos de dados:
+*Number
+	-Infinity
+	-NaN
+*string
+*boolean
+*null
+*undefined
+*object
+	-Array
+*Function
+
+-A variável no javascript pode aumentar e diminuir conforme o programa
+for rodando. A variável inicialmente não tem um tipo definido, ela é um espaço
+mas quando preenchido o espaço com algum dado, ela recebe a tipagem do dado.
+ex.: var num = 10;
+typeof Number
+var num = "Jade"
+typeof String
+
+-Typeof para saber o tipo de dado da variável
+
+-Null para o Javascript é um objeto.
 
