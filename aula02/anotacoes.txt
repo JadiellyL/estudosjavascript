@@ -1,0 +1,26 @@
+Variáveis
+
+- simbolo = (diz-se "recebe)
+ex.: a = b (a recebe b)
+
+-No JavaScript moderno, além de utilizar a palara VAR para identificar uma
+variável, também podemos usar LET.
+ex.: var a = 3;
+
+-Em JavaScript pode-se utilizar 3 tripos de aspas:
+" aspas dupas
+' apóstrofe ou aspa simples
+' crase
+Tem diferença para o JavaScript usar uma ou outra (será explicado mais para a 
+frente)
+
+-O nome de cada variável chama-se IDENTIFICADOR
+Regras para nomes de variáveis:
+Podem começar com:
+*letra, $ ou _
+*Não podem começar com números
+*É possível utilizar letras ou números
+*É possíveel utilizar acentos ou símbolos
+*Não podem conter espaços
+*Não podem ser palavras reservadas
+
