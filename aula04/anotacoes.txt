@@ -1,0 +1,68 @@
+Operadores
+
+-Familias de operadores
+aritméticos
+atribuição
+relacionais
+lógicos
+ternário
+
+OPERADORES ARITMÉTICOS E OPERADORES DE ATRIBUIÇÃO
+Aritméticos
++ soma
+* multiplicação
+/ divisão
+- subtração
+% divisão inteira(onde não se usa vírgula, quando precisar colocar vírgula, para-se de dividir, ou seja, é resto de divisão inteira)
+** (surgiu no ecma script nas duas últimas versões, ele é a potência ex.: 5 ** 2 = 25 (5 ao quadrado))
+
+-Precedência de operadores
+colocar parênteses no calculo que quer executar primeiro
+Ordem de precedências
+()
+**
+* / % (neste caso, se houver mais de um no mesmo calculo,a precedência é realizada da esquerda para a direita ex.: 2/1 + 2 * 3, neste caso a divisão será executada primeiro)
++ -
+Atribuição
+var a = 3 + 2; (a variável a recebe o valor de 5 + 3, ou seja, será armazenado em a o valor 8) atribuição simples
+var b = 3; atribuição simples
+var b = b + 2;  auto-atribuição (ex.: a = 3; a = a + 2(igual a 5); a = a / 2 (igua a 2.5) 
+var b += 2; atribuição simplificada (neste caso b é igual a 7)
+var x = 2;
+x++ atribuição incremento; pós-incremento (mostra depois)
+++x; pré-incremento (mostra antes)
+x--; atribuição decremeto; pós-decremento
+--x; pré-decremento
+
+OPERADORES RELACIONAIS, LÓGICOS E TERNÁRIO
+Relacionais
+> maior
+< menor
+>= maior ou igual
+<= menor ou igual
+== igualdade (o sinal de igualdade não testa o tipo, ou seja 5 == '5' é true)
+=== operador de identidade (neste caso é avaliado o mesmo valor e o tipo, neste caso, 5 === '5' é false)
+!= diferente
+o resultado destas operações será sempre um valor boolean 9 verdadeiro ou falso)
+
+
+Operadores Lógicos
+! negação - unário
+&& conjunção (e) - binário
+|| disjunção (ou) - binário
+
+precedência dos operadores lógicos
+! negação
+&& e
+|| ou
+
+Operadores ternários
+?: 
+Se chama ternário poque tem três partes (teste ? true : false)
+ex.: media>= 7.0 ? "Aprovado" : "Reprovado"
+
+
+precedência dos operadores em geral
+Aritméticos (possui ordem de precedência)
+Relacionais (estes não possuem ordem de precedência)
+Lógicos (possui ordem de precedência)
