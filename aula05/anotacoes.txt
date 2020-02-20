@@ -1,0 +1,46 @@
+DOCUMENT OBJECT MODEL
+(Modelo de Objetos para Documentos)
+Conjunto de Objetos dentro do seu navegador que vai dar acesso aos componentes 
+internos do seu web site.
+Não funciona dentro do nodejs
+O DOM está presente quando estou rodando o javascript dentro do meu navegador
+
+Árvore DOM do site
+-começa da raiz e essa raíz é chamada de window.
+-tudo dentro do javascript está dentro do objeto chamado window (janela)
+-a janela do navegador é um objeto dom e se chama window
+-dentro do window há vários outros objetos (Ex.: location, document, history)
+location: localização do site, qual a url, qual a página atual, qual 
+foi a página anterior
+-document: documento atual (dentro dele tem um objeto muito importante o HTML)
+-Dentro do HTML tem-se dois objetos ou filhos: o head e body
+-dentro de head tem várias tags: meta, title, link.
+-dentro do body: header, section, script
+-dentro do section: p, div
+history: vai guardando de onde voce veio, para onde voce vai, facilita a navegação
+dentro do site
+
+
+5 métodos de acesso aos elementos do dom
+-por marca
+-por id
+-por nome
+-por classe
+-por seletor
+
+-Selecionar por marca ou por tagName
+getElementsByTagName() --- 
+
+
+-Selecionar por ID
+getElementById()
+
+-Selecionar por nome
+getElementsByName()[indicar numero quando tem mais de um elemento]
+
+-Selecionar por classe
+getElementsByClasseName()
+
+-Selecionar por seletor (recomendável pela maioria dos manuais)
+querySelector()
+querySelectorAll()

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>aula 05 JS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Aula05 de Javascript</h1>
+			<h2 name="jade">jade aprendendo javascript</h2>
+			<div id="div2">texto para a div 2</div>
+		</header>
+		
+		<section>
+			<p>
+				Texto para as aulas de <strong>JavaScript</strong> do canal
+				curso em vídeo, com Gustavo Guanabara, no youtube.
+			</p>
+			<div id="msg">Clique aqui<div/>
+			
+			
+		</section>
+		
+		<script>
+			window.document.write("Olá mundo");
+			window.document.write("<br/>" + window.document.charset);
+			window.document.write("<br/>" + window.navigator.appName);
+			window.document.write("<br/>" + window.document.URL);
+			
+			var pi = window.document.getElementsByTagName('p')[0];//pega o primeiro parágrafo que aparecer
+			window.document.write("<br/> Está escrito assim:" + pi.innerText);//pega o texto escrito no paragrafo e exibe novamente
+			pi.style.color = "purple";
+			window.document.write("<br/> Esta escrito assim: " + pi.innerHTML); // exibe o texto conforme esta escrito no paragrafo com todas as configurações html
+			var corpo = window.document.body;
+			corpo.style.background = "gray";
+			
+			var t = window.document.getElementById('msg');
+			t.style.background = "green";
+			t.innerText = "estou aguardando";
+			
+			var jade = window.document.getElementsByName('jade')[0];
+			jade.innerText = "Acorda menina";
+			
+			var d = window.document.querySelector('#div2');
+			d.style.color = "blue";
+			/*quando selecionamos por id é representada pelo #
+			quando é classe é pelo .*/
+			
+		</script>
+		
+	</body>
+</html>
