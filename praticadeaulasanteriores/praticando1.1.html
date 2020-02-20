@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Prática JS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		
+		
+		<script>
+			var nome = window.prompt("Digite o seu nome");
+			window.alert(`Seja bem-vindo(a) ${nome} vamos somar?`);
+			var n1 = Number(window.prompt("Digite um número"));
+			var n2 = Number(window.prompt("Digite outro número"));
+			var soma = n1 + n2;
+			window.alert("vamos Subtrair?");
+			n1 = Number(window.prompt("Digite um número"));
+			n2 = Number(window.prompt("Digite outro número"));
+			var subtracao = n1 - n2;
+			window.alert("vamos Dividir?");
+			n1 = Number(window.prompt("Digite um número"));
+			n2 = Number(window.prompt("Digite outro número"));
+			var divisao = n1 / n2;
+			window.alert("Multiplicar?");
+			n1 = Number(window.prompt("Digite um número"));
+			n2 = Number(window.prompt("Digite outro número"));
+			var multiplicacao = n1 * n2;
+			
+			document.write(`A soma é ${soma} <br/> 
+			A subtracao é ${subtracao} <br/>
+			A divisão é ${divisao.toFixed(2)} <br/>
+			A multiplicacao é ${multiplicacao}`);
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,57 @@
+Number
+
++ serve para adição (number + number = adição)
++ também serve para concatenação (string + string = concatenação)
+
+window.prompt retorna uma string
+
+converter string para number
+-Number.parseInt(n1);
+-Number.paserFloat(n1); -- converter para real
+-Number(n) -- convertendo para numero (inteiro ou real)
+
+-soma de números inteiros com números reais, declarados como inteiro ou 
+convertido para inteiro, podem dar erro:
+ex.: var n1 = Number.parseInt(window.prompt("Digite um número")); // uma forma de converter para inteiro
+			var n2 = Number.parseInt(window.prompt("Digite outro número"));
+			var soma = n1 + n2;
+			window.alert("A soma é " + soma);
+com n1 = 2 e n2 = 3.5;
+O valor da soma é 5;
+
+-Forma correta
+var n1 = Number(window.prompt("Digite um número")); // uma forma de converter para inteiro
+			var n2 = Number(window.prompt("Digite outro número"));
+			var soma = n1 + n2;
+			window.alert("A soma é " + soma);
+			
+			
+-Conversão de Number para string
+String(n)
+ou
+n.toString()
+
+-TEMPLATES STRINGS
+A crase é a delimitação do templates string
+placeholder ${s}
+como utilizar?
+em casos que usamos desta forma:
+"o aluno " + fulano + "Está" + "com " + doenca
+podemos usar assim:
+`o aluno ${fulano} está com ${doenca}`
+
+-Mexendo com string
+s.length - tamanho da string
+s.toUpperCase() - coloca em letras maiúscuas
+s.toLowerCase() - coloca em letras minúsculas
+
+-document.write() - serve para escrever dentro do layout do 
+site que você está criando
+
+-para adicionar duas casas decimais nos número:
+var n1 = 1545.4
+n1.toFixed(2)
+n1.toFixed(2).replace('.',',') para trocar o ponto por vírgula
+
+-para mostrar salários
+n1.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})

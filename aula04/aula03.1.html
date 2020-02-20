@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>aula 03.1 JS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		
+		
+		<script>
+		
+			var nome = window.prompt("Digite seu nome");
+			document.write(`Olá <strong>${nome}</strong>! seu nome tem ${nome.length} letras <br/>`);
+			document.write(`Maiúsculo ${nome.toUpperCase()} <br/>`);
+			document.write(`Minúsculo ${nome.toLowerCase()} <br/>`);
+			
+			var num = 155.5;
+			document.write(`Número ${num.toFixed(2)} <br/>`);//para adicionar duas casas decimais
+			document.write(`Número ${num.toFixed(2).replace('.',',')} <br/>`);//para trocar ponto por virgula
+			document.write(`Número ${num.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})} <br/>`);//para mostrar valores em reais (dinheiro)
+			
+			
+			
+			
+		</script>
+		
+	</body>
+</html>
