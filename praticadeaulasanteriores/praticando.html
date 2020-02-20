@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Prática JS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		
+		
+		<script>
+			var nome = window.prompt("Olá! Digite o seu nome!");
+			window.confirm(`Seu nome é? ${nome}`);
+			window.alert(`Seja bem-vindo(a) ${nome}`);
+		
+			var n1 = Number(window.prompt(`${nome} Digite sua primeira nota`));
+			var n2 = Number(window.prompt(`${nome} Digite sua segunda nota`));
+			var soma = n1 + n2;
+			window.alert(`A soma das suas notas é ${soma}`);
+			
+			document.write(`Nome ${nome.toUpperCase()} <br/> seu nome possui ${nome.length} letras <br/>`);
+			document.write(`Primeira Nota: ${n1.toFixed(2)} <br/> Segunda Nota: ${n2.toFixed(2)} <br/> A soma das notas é: ${soma.toFixed(2).replace(".",",")} <br/>`);
+			document.write(`O valor total da sua comissão em dinheiro é ${soma.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'})}`);
+		</script>
+		
+	</body>
+</html>
