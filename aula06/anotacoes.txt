@@ -1,0 +1,27 @@
+DOM
+é um facilitador que existe dentro do navegador dentro do html5 pra dar acesso aos
+elementos, diretamente para o javascript.
+
+EVENTOS
+é tudo que pode acontecer com um elemento
+-eventos de mouse
+*mouseenter - o mouse entrou no elemento
+*mousemove - mover o mouse sobre o elemento
+*mousedown - clique do mouse
+*mouseup - soltar o botao do mouse
+*click - apertar e soltar o botão do mouse
+
+pesquisar eventos na página: events reference no google
+
+Funções
+conjunto de linhas que vão ser executadas só quando o evento ocorrer
+estutura das funções em js
+function nomedafuncao(parâmetros){
+}
+
+function{ sem o nome é chamada de função anônima
+}
+
+
+-Os eventos podem ser colocados na parte do html ou diretamente no javascript
+

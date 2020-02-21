@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>aula 06 JS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+			Interaja
+		</div>
+		<br/>
+		
+		<div id="ar">
+		Interagir
+		</div>
+		
+		<script>
+		 
+			var a = window.document.getElementById('area');
+			a = window.document.getElementById('ar');
+			
+			a.addEventListener('click', clicar);
+			a.addEventListener('mouseenter', entrar);
+			a.addEventListener('mouseout', sair);
+			
+			function clicar(){
+				a.innerText = "Clicou";
+				a.style.background = "red";
+			}
+			
+			function entrar(){
+				a.innerText = "entrou";
+			}
+			
+			function sair(){
+				a.innerText = "Saiu";
+				a.style.background = "green";
+			}
+		</script>
+		
+	</body>
+</html>
