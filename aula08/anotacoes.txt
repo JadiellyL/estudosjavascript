@@ -1,0 +1,10 @@
+CONDIÇÕES ANINHADAS
+CONDIÇÃO MULTIPLA
+-SWITCH{
+case valor2
+break
+case valor2
+break
+default
+break
+}

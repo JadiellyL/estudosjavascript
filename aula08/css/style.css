@@ -1,0 +1,29 @@
+body{
+	background: #cccccc;
+}
+
+h1{
+	color: blue;
+	text-align: center;
+	padding: 20px;
+}
+
+section{
+	padding: 25px;
+}
+#area{
+	background: green;
+	color: #ffffff;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align:center;
+}
+#ar{
+	background: green;
+	color: #ffffff;
+	width: 200px;
+	height: 200px;
+	line-height: 200px;
+	text-align:center;
+}
