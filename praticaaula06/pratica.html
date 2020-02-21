@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>aula 06 JS</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h1>Calculando valores</h1>
+		<input type="number" name="n1" id="n1">
+		<input type="number" name="n2" id="n2">
+		<div id="res">Resultado</div>
+		<input type="button" value="somar" onclick="somar()">
+		<input type="button" value="subtrair" onclick="subtrair()">
+		<input type="button" value="multiplicar" onclick="multiplicar()">
+		<input type="button" value="dividir" onclick="dividir()">
+		
+		<script>
+			var num1 = window.document.getElementById('n1');
+			var num2 = window.document.getElementById('n2');
+			var mostrar = window.document.getElementById('res');
+			
+			var numero1 = Number(num1.value);
+			var numero2 = Number(num2.value);
+			
+			function somar(){
+				var soma = numero1 + numero2;
+				mostrar.innerHTML = `A soma de ${numero1} e ${numero2} é ${soma}`;
+			}
+			
+			function subtrair(){
+				var subtracao = numero1 - numero2;
+				mostrar.innerHTML = `A subtração de ${numero1} e ${numero2} é ${subtracao}`;
+			}
+			
+			function multiplicar(){
+				var multiplica = numero1 * numero2;
+				mostrar.innerHTML = `O produto de ${numero1} e ${numero2} é ${multiplica}`;
+			}
+			
+			function dividir(){
+				var divide = numero1 / numero2;
+				mostrar.innerHTML = `A divisão de ${numero1} e ${numero2} é ${divide.toFixed(2)}`;
+			}
+		</script>
+	</body>
+</html>
