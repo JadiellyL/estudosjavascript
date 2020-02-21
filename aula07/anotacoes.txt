@@ -1,0 +1,6 @@
+CONDIÇÕES
+desvio condicional 
+estrutura das condições
+if(condicao){
+}else{
+}
