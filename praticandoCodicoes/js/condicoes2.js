@@ -51,6 +51,7 @@ function verificar(){
 		res.innerHTML = `Detectamos ${genero} ${classif}
 		com ${idade} anos de idade`
 		res.appendChild(tag)//adicionar um elemento
+		res.innerHTML += `<p> Imagem coletada no google imagens</p>`
 		
 	}
 }
