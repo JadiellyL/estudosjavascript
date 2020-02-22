@@ -1,0 +1,4 @@
+LAÇOS DE REPETIÇÃO
+Estrutura de repetição com variável de controle
+-for(inicio; teste; incremento){
+}
