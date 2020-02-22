@@ -13,7 +13,7 @@ function clicar2(){
 	var res = window.document.getElementById('foto2')
 	
 	do{
-		res.innerHTML += `<p>Sim, está tudo bem ${cont}</p>`
+		res.innerHTML += `<p>Sim, está tudo bem comigo. ${cont}</p>`
 		cont++
 	}while(cont <= 6)
 }
