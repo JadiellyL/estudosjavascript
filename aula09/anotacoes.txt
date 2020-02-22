@@ -1,0 +1,6 @@
+LAÇOS DE REPETIÇÃO
+-while(condicao){ //estrutura de repetição com teste lógico no início
+}
+
+-do{ // estrutura de repetição com teste lógico depois
+}while()
