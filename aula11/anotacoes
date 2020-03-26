@@ -1,0 +1,28 @@
+VARIÁVEIS COMPOSTAS
+-Devem ser capazes de armazenar vários valores em uma mesma estrutura
+Ex.:
+var estacionamento = [carro1,carro2,carro3]
+
+estacionamento é um vetor ou array
+carro1 está no índice 0
+e carro1 é um elemento do vetor
+que tem um valor
+
+-Um vetor ou um array ou uma variável composta é uma variável que tem vários elementos, cada elemento é composto por seu valor e por uma chave de identificação.
+
+-Declarando um vetor
+let num = [2,4,6,7]
+
+-adicionando elemento e criando mais um índice
+num[4] = 3
+obs.: se fizer isso numa posição que já existe
+o javascript vai substituir o numero antigo pelo novo numero. EX.: num[3] = 8 substitui o 7 pelo 8
+
+-adicionando elemento na última posição
+num.push(9)
+
+-mostrando o tamanho do vetor
+num.length
+
+-Colocar em ordem crescente
+num.sort()
